@@ -1,11 +1,38 @@
 .container-fluid mian{
-    height: 30px;
-    width: 1230px;
+    height: 80px;
+    width: 1200px;
     background-color: black;
 }
 .scroll{
     color: white;
     font-size: 15px;
+}
+.B h3{
+    color: black;
+}
+.B h1{
+    color: black;
+}
+.B p{
+    color: black;
+}
+.B1 h3{
+    color: black;
+}
+.B1 h1{
+    color: black;
+}
+.B1 p{
+    color: black;
+}
+.middle h3{
+    color: black;
+}
+.middle h1{
+    color: black;
+}
+.middle p{
+    color: black;
 }
 .A{
     display: flex;
@@ -18,27 +45,65 @@
     background-color: black;
     font-size: medium;
 }
+.a1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .row2{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
 .C{
-    height: 500px;
-    width: 550px;
-    border: 2px solid black;
-    background-image: url(img/);
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 30px;
+    height: 600px;
+    width: 600px;
+    border:0px;
+    background-image: url(img/wedding-rings-peals.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  right ;   
 }
-.D{
-    height: 500px;
-    width: 550px;
-    border: 2px solid black;
-    background-image: url();
+.C h3{
+    font-size: 30px;
+}
+.btn1{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+    border: 0px;
+    font-size: smaller;
+    margin-left: 30px
+}
+.D1{
+    height: 600px;
+    width: 600px;
+    border: 0px;
+    background-image: url(img/wedding-glass-precious-gold-luxury-golden.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  bottom center;
+     padding-left: 30px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    font-size: smaller;
+}
+.btn2{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+    border: 0px;
+    margin-left: 30px
 }
 .main1{
     height: 50px;
@@ -51,14 +116,32 @@
     justify-content: space-around;
     align-items: center;
 }
-.container1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: medium;
+.image{
+    height: 700px;
+    width: 1230px;
+    background-image: url(img/white-wedding-arrangement-with-copy-space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  bottom center;
 }
-.button1{
-    height: 30px;
-    width: 70px;
+.E{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+}
+.E h1{
+    color: black;
+    font-size: 50px;
+}
+.E p{
+    color: black;
+    font-size: 20px;
+}
+
+.E1{
+    display: flex;
+    flex-direction: row;
+   margin-top: 20px;
+   
 }
