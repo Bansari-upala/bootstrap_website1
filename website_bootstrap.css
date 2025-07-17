@@ -1,6 +1,6 @@
-.container-fluid mian{
+.A mian{
     height: 80px;
-    width: 1200px;
+    width: 1230px;
     background-color: black;
 }
 .scroll{
@@ -39,7 +39,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 35px;
+    height: 40px;
     width: 1200px;
     color: white;
     background-color: black;
@@ -50,11 +50,7 @@
     flex-direction: row;
     justify-content: space-between;
 }
-.row2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
+
 
 .C{
     display: flex;
@@ -117,8 +113,8 @@
     align-items: center;
 }
 .image{
-    height: 700px;
-    width: 1230px;
+    height: 630px;
+    width: 1235px;
     background-image: url(img/white-wedding-arrangement-with-copy-space.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,9 +122,9 @@
 }
 .E{
     display: flex;
-    justify-content: space-around;
-    align-content: center;
-    text-align: center;
+    justify-content: end !important;
+    align-items: center !important;
+    text-align: center !important;
 }
 .E h1{
     color: black;
@@ -138,10 +134,16 @@
     color: black;
     font-size: 20px;
 }
-
+.E11 p{
+    align-items: center;
+}
 .E1{
+    height: 600px;
+    width: 1220px;
     display: flex;
-    flex-direction: row;
-   margin-top: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   margin-top: 10px;
    
 }
